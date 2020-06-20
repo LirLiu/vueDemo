@@ -5,7 +5,7 @@
   </div>
 </template>
 <script>
-import GlobalHead from "./components/GlobalHeader/GlobalHead";
+import GlobalHead from "./components/GlobalHeader/index";
 
 export default {
   components: {

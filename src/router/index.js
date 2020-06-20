@@ -1,21 +1,22 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import GlobalHome from '../components/Home/GlobalHome.vue'
+import HomePage from '../views/index.vue'
+import VideoPlay from '../views/video/index.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'GlobalHome',
-    component: GlobalHome
+    name: 'HomePage',
+    component: HomePage
+  },
+  {
+    path: '/video',
+    name: 'VideoPlay',
+    component: VideoPlay
+    // component: () => import(/* webpackChunkName: "about" */ '../views/home/Home.vue')
   }
-  // {
-  //   path: '/',
-  //   name: 'HomePage',
-  //   component: HomePage
-  //   // component: () => import(/* webpackChunkName: "about" */ '../views/home/Home.vue')
-  // }
 ]
 
 const router = new VueRouter({
