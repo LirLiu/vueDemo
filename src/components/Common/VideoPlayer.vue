@@ -21,7 +21,6 @@ export default {
   width: 988px;
   height: 556px;
   margin: 0 auto;
-  background: red;
   > video {
     width: 100%;
     height: 100%;
