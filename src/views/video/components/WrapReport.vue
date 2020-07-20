@@ -1,3 +1,4 @@
+// 点赞分享组件
 <template>
   <div class="wrWrapper">
     <div class="wrLeft">

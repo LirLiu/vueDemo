@@ -1,3 +1,4 @@
+// 右侧头部用户信息组件
 <template>
   <div class="chRight">
     <el-avatar class="chAvatar" src="../../assets/image/akari.jpg"></el-avatar>

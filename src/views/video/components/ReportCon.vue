@@ -2,14 +2,17 @@
   <div class="rcWrapper">
     <con-head></con-head>
     <div class="rcStealth"></div>
+    <con-recommend></con-recommend>
   </div>
 </template>
 <script>
 import ConHead from "./ConHead";
+import ConRecommend from "./ConRecommend";
 export default {
   name: "ReportCon",
   components: {
-    ConHead
+    ConHead,
+    ConRecommend
   }
 };
 </script>

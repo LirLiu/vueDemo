@@ -1,3 +1,4 @@
+左侧头部视频标题等组件
 <template>
   <div class="whWrapper">
     <router-link to="#">
